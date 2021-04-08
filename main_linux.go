@@ -5,7 +5,6 @@ import (
 	"fmt"
 	"log"
 	"os"
-	"scorredoira/ini"
 	"strconv"
 )
 
@@ -22,7 +21,7 @@ func main() {
 	flag.BoolVar(&cups, "cups", false, "Use CUPS")
 	flag.Parse()
 
-	c, err := ini.New("posprinter.conf")
+	c, err := NewConfig("posprinter.conf")
 	if err != nil {
 		log.Fatal(err)
 	}
