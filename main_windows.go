@@ -5,7 +5,6 @@ import (
 	"fmt"
 	"log"
 	"os"
-	"ini"
 	"strconv"
 
 	winPrint "github.com/alexbrainman/printer"
@@ -40,7 +39,7 @@ func main() {
 		return
 	}
 
-	c, err := ini.New("posprinter.conf")
+	c, err := NewConfig("posprinter.conf")
 	if err != nil {
 		log.Fatal(err)
 	}

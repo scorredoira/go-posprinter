@@ -1,0 +1,14 @@
+# github.com/alexbrainman/printer v0.0.0-20200912035444-f40f26f0bdeb
+## explicit
+github.com/alexbrainman/printer
+# golang.org/x/sys v0.0.0-20211216021012-1d35b9e2eb4e
+## explicit
+golang.org/x/sys/internal/unsafeheader
+golang.org/x/sys/windows
+# golang.org/x/text v0.3.7
+## explicit
+golang.org/x/text/encoding
+golang.org/x/text/encoding/charmap
+golang.org/x/text/encoding/internal
+golang.org/x/text/encoding/internal/identifier
+golang.org/x/text/transform
